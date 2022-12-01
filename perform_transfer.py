@@ -16,15 +16,19 @@ style_path = args.style_path
 plt.figure(figsize=(10,5))
 
 content = image.load_img(content_path)
-content = image.img_to_array(content)/255
+content = image.img_to_array(content)/255.0
 
 style = image.load_img(style_path)
-style = image.img_to_array(style)/255
+style = image.img_to_array(style)/255.0
 
 plt.subplot(1, 2, 1)
+plt.tick_params(left = False, right = False , labelleft = False ,
+                labelbottom = False, bottom = False)
 plt.imshow(content)
 
 plt.subplot(1, 2, 2)
+plt.tick_params(left = False, right = False , labelleft = False ,
+                labelbottom = False, bottom = False)
 plt.imshow(style)
 
 if not os.path.isdir(os.path.join('finished_product', args.save_folder)):
@@ -42,4 +46,6 @@ print(best_loss)
 
 plt.figure()
 plt.imshow(abs(best[0,:]/255))
+plt.tick_params(left = False, right = False , labelleft = False,
+                labelbottom = False, bottom = False)
 plt.savefig(os.path.join('finished_product', args.save_folder, "final.jpeg"))

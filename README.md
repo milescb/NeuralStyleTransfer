@@ -23,3 +23,5 @@ python3 perform_transfer.py --nEpochs=100 --learning_rate=10.0 --content_path=<p
 ```
 
 ## Preparing Photos
+
+Ideally, both style and content photos of are the same dimension. In order to not consume too much memory / time in training, photos should be 500x500 pixels or smaller. After preparing photos as such, put them in appropriate folders and run the code!
