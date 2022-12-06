@@ -14,7 +14,7 @@ I choose as my subject matter the following photos of iconic Berlin scenes:
 
 <img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/fernsehturm.jpeg" width=300) />
 
-2. Brandenburgertor und Pariser Platz
+2. Brandenburger Tor und Pariser Platz
 
 <img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/pariser_platz.jpeg" width=300) />
 
@@ -48,8 +48,11 @@ The results are the style transfer are shown below for each photo and each style
 
 2. 
 
+<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/bt_and_exp/final.jpeg" width=250/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/bt_and_suprematismus/final.jpeg" width=250><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/bt_and_wiederhold/final.jpeg" width=250>
 
 3. 
+
+<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/nw_and_exp/final.jpeg" width=250/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/nw_and_suprematismus/final.jpeg" width=250><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/nw_and_wiederhold/final.jpeg" width=250>
 
 ## Running the code
 
