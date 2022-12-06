@@ -12,7 +12,7 @@ I chose as my subject matter the following photos of iconic Berlin scenes:
 
 Haus das Lehers mit Fernsehturm in Hintergrund
 
-![](https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/fernsehturm.jpeg)
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/fernsehturm.jpeg" width=200) />
 
 ## Running the code
 
