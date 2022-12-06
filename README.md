@@ -34,7 +34,7 @@ I choose the following photos to apply styles
 
 <img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/suprematismus.jpg" width=300 />
 
-3. Sascha Wiederhold Gemalde
+3. Sascha Wiederhold Gemalde, _Figuren im Raum_, 1928, Detail, Öl auf Karton auf Leinwand
 
 <img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/wiederhold.jpeg" width=300 />
 
@@ -44,7 +44,7 @@ The results are the style transfer are shown below for each photo and each style
 
 1. 
 
-<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_exp/final.jpeg" width=250/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_wiederhold/final.jpeg" width=250><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_suprematismus/final.jpeg" width=250>
+<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_exp/final.jpeg" width=250/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_suprematismus/final.jpeg" width=250><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_wiederhold/final.jpeg" width=250>
 
 2. 
 
