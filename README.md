@@ -30,9 +30,9 @@ I choose the following photos to apply styles
 
 <img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/expressionismus.png" width=300 />
 
-2. Suprematismus: 
+2. Suprematismus von Kasimir Sewerinowitsch Malewitsch
 
-<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/suprematismus.jpg" width=300 />
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/suprematismus2.jpg" width=300 />
 
 3. Sascha Wiederhold Gemalde, _Figuren im Raum_, 1928, Detail, Öl auf Karton auf Leinwand
 
