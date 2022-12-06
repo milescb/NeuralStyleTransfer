@@ -33,14 +33,23 @@ I choose the following photos to apply styles
 2. Suprematismus: 
 
 <img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/suprematismus.jpg" width=200 />
-<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/wiederhold.jpeg" width=200 />
 
 3. Sascha Wiederhold Gemalde
 
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/wiederhold.jpeg" width=200 />
 
 ### Results of Style Transfer
 
-The results are the style transfer are shown below for each photo and each style:
+The results are the style transfer are shown below for each photo and each style. Styles are arranged in the order above. 
+
+1. 
+
+<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_exp/final.jpeg" width=200/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_wiederhold/final.jpeg" width=200>
+
+2. 
+
+
+3. 
 
 ## Running the code
 
