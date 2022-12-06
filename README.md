@@ -10,9 +10,37 @@ This project is done specifically for an art class I took in Berlin while studyi
 
 I chose as my subject matter the following photos of iconic Berlin scenes:
 
-Haus das Lehers mit Fernsehturm in Hintergrund
+1. Haus das Lehers mit Fernsehturm in Hintergrund
 
 <img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/fernsehturm.jpeg" width=200) />
+
+2. Brandenburgertor und Pariser Platz
+
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/pariser_platz.jpeg" width=200) />
+
+3. Pieta in Neuewache 
+
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/neue_wache.jpeg" width=200 />
+
+### Photos for Style
+
+I choose the following photos to apply styles
+
+1. Deutsche Expressionismus: Marianne von Werefkin. Die rote Stadt, 1902
+
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/expressionismus.png" width=200 />
+
+2. Suprematismus: 
+
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/suprematismus.jpg" width=200 />
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/wiederhold.jpeg" width=200 />
+
+3. Sascha Wiederhold Gemalde
+
+
+### Results of Style Transfer
+
+The results are the style transfer are shown below for each photo and each style:
 
 ## Running the code
 
