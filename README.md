@@ -44,7 +44,7 @@ The results are the style transfer are shown below for each photo and each style
 
 1. 
 
-<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_exp/final.jpeg" width=200/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_wiederhold/final.jpeg" width=200>
+<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_exp/final.jpeg" width=300/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_wiederhold/final.jpeg" width=300>
 
 2. 
 
