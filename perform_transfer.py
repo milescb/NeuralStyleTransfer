@@ -34,7 +34,8 @@ plt.imshow(style)
 if not os.path.isdir(os.path.join('finished_product', args.save_folder)):
     os.mkdir(os.path.join('finished_product', args.save_folder))
 
-plt.savefig(os.path.join('finished_product', args.save_folder, "initial.jpeg"))
+plt.savefig(os.path.join('finished_product', args.save_folder, "initial.jpeg"), 
+    bbox_inches='tight')
 
 #%% ------------------------------------------------------------------------
 # Perform actual learning + style transfer
@@ -48,4 +49,5 @@ plt.figure()
 plt.imshow(best[0,:]/150)
 plt.tick_params(left = False, right = False , labelleft = False,
                 labelbottom = False, bottom = False)
-plt.savefig(os.path.join('finished_product', args.save_folder, "final.jpeg"))
+plt.savefig(os.path.join('finished_product', args.save_folder, "final.jpeg"), 
+    bbox_inches='tight')
