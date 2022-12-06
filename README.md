@@ -1,4 +1,4 @@
-# Neural-Style Transfer
+# Neural Style Transfer
 
 Here, we follow the implementation given in [this Tensorflow example](https://blog.tensorflow.org/2018/08/neural-style-transfer-creating-art-with-deep-learning.html). We had to edit this code in order to run properly following, to some extent, the implementation given [here](https://github.com/ravising-h/Neural-Style-Transfer). The main idea is to use a convolution neural network (CNN) to map the style from one picture onto the other. This is made possible with the pre-trained network `VGG19` in `Tensorflow`. This network takes as an input the pixels and RBG colors for each pixel of both an original image and a style image, thus transfering the style onto the original photo. Note that I did not write the majority of the functions in `StyleTransfer.py` but rather corrected several bugs here and collected the code into an easily useable format. See below for the methods implemented for running the code. 
 
@@ -8,7 +8,7 @@ This project is done specifically for an art class I took in Berlin while studyi
 
 ### Subject Photos
 
-I chose as my subject matter the following photos of iconic Berlin scenes:
+I choose as my subject matter the following photos of iconic Berlin scenes:
 
 1. Haus das Lehers mit Fernsehturm in Hintergrund
 
@@ -64,6 +64,8 @@ Possible command-line arguments are
 ```
 python3 perform_transfer.py --nEpochs=100 --learning_rate=10.0 --content_path=<path_to_content> --style_path=<path_to_styles> --save_folder=<path_to_save_folder>
 ```
+
+All the above photos are created with a learning rate of 10.0 over 500 epochs of training. This takes approximately 17 minutes to complete on a M1 mac with 16GB of RAM. 
 
 ## Preparing Photos
 
