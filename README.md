@@ -12,15 +12,15 @@ I chose as my subject matter the following photos of iconic Berlin scenes:
 
 1. Haus das Lehers mit Fernsehturm in Hintergrund
 
-<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/fernsehturm.jpeg" width=200) />
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/fernsehturm.jpeg" width=300) />
 
 2. Brandenburgertor und Pariser Platz
 
-<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/pariser_platz.jpeg" width=200) />
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/pariser_platz.jpeg" width=300) />
 
 3. Pieta in Neuewache 
 
-<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/neue_wache.jpeg" width=200 />
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/neue_wache.jpeg" width=300 />
 
 ### Photos for Style
 
@@ -28,15 +28,15 @@ I choose the following photos to apply styles
 
 1. Deutsche Expressionismus: Marianne von Werefkin. Die rote Stadt, 1902
 
-<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/expressionismus.png" width=200 />
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/expressionismus.png" width=300 />
 
 2. Suprematismus: 
 
-<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/suprematismus.jpg" width=200 />
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/suprematismus.jpg" width=300 />
 
 3. Sascha Wiederhold Gemalde
 
-<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/wiederhold.jpeg" width=200 />
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/wiederhold.jpeg" width=300 />
 
 ### Results of Style Transfer
 
