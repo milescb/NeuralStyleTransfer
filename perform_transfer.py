@@ -45,7 +45,7 @@ best, best_loss = run_style_transfer(content_path, style_path,
 print(best_loss)
 
 plt.figure()
-plt.imshow(abs(best[0,:]/255))
+plt.imshow(best[0,:]/150)
 plt.tick_params(left = False, right = False , labelleft = False,
                 labelbottom = False, bottom = False)
 plt.savefig(os.path.join('finished_product', args.save_folder, "final.jpeg"))

@@ -6,7 +6,13 @@ Here, we follow the implementation given in [this Tensorflow example](https://bl
 
 This project is done specifically for an art class I took in Berlin while studying abroad. In the class, we discussed art styles and movements from the 19th centry in Germany. My final project was focused on using these art styles and applying them to pictures I took around Berlin. 
 
-(Description of fotos and styles)
+### Subject Photos
+
+I chose as my subject matter the following photos of iconic Berlin scenes:
+
+Haus das Lehers mit Fernsehturm in Hintergrund
+
+(https://github.com/lvb5/NeuralStyleTransfer/blob/master/original_content/fernsehturm.jpeg)
 
 ## Running the code
 
@@ -24,4 +30,4 @@ python3 perform_transfer.py --nEpochs=100 --learning_rate=10.0 --content_path=<p
 
 ## Preparing Photos
 
-Ideally, both style and content photos of are the same dimension. In order to not consume too much memory / time in training, photos should be 500x500 pixels or smaller. After preparing photos as such, put them in appropriate folders and run the code!
+Both style and content photos _must_ be the same dimension in order to run. In order to not consume too much memory / time in training, photos should be 500x500 pixels or smaller. After preparing photos as such, put them in appropriate folders and run the code!
