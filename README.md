@@ -54,9 +54,18 @@ The results are the style transfer are shown below for each photo and each style
 
 <img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/nw_and_exp/final.jpeg" width=250/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/nw_and_suprematismus/final.jpeg" width=250><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/nw_and_wiederhold/final.jpeg" width=250>
 
+All the above photos are created with a learning rate of 10.0 over 500 epochs of training. This takes approximately 17 minutes to complete on a M1 mac with 16GB of RAM. 
+
 ## Running the code
 
-After downloading required packages such as `tensorflow`, the code should run out of the box via
+All required files to run can be found in the `requirements.txt` file. To run the code, create a virtual environment and install the packages via
+
+```
+python3 -m venv <path_to_new_env>
+source <path_to_new_env>/bin/activate
+pip install -r requirements.txt
+```
+The code then runs out of the box with the following commands:
 
 ```
 python3 perform_transfer.py
@@ -67,8 +76,6 @@ Possible command-line arguments are
 ```
 python3 perform_transfer.py --nEpochs=100 --learning_rate=10.0 --content_path=<path_to_content> --style_path=<path_to_styles> --save_folder=<path_to_save_folder>
 ```
-
-All the above photos are created with a learning rate of 10.0 over 500 epochs of training. This takes approximately 17 minutes to complete on a M1 mac with 16GB of RAM. 
 
 ## Preparing Photos
 
