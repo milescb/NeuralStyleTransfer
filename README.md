@@ -28,15 +28,15 @@ I choose the following photos to apply styles
 
 1. Deutsche Expressionismus: Marianne von Werefkin. Die rote Stadt, 1902
 
-<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/styles/expressionismus.png" width=300 />
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/expressionismus.png" width=300 />
 
 2. Suprematismus von Kasimir Sewerinowitsch Malewitsch
 
-<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/styles/suprematismus.jpg" width=300 />
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/suprematismus.jpg" width=300 />
 
 3. Sascha Wiederhold Gemalde, _Figuren im Raum_, 1928, Detail, Öl auf Karton auf Leinwand
 
-<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/styles/wiederhold.jpeg" width=300 />
+<img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/wiederhold.jpeg" width=300 />
 
 ### Results of Style Transfer
 
@@ -44,15 +44,15 @@ The results are the style transfer are shown below for each photo and each style
 
 1. 
 
-<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/finished_product/tv_and_exp/final.jpeg" width=250/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/finished_product/tv_and_suprematismus/final.jpeg" width=250><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/finished_product/tv_and_wiederhold/final.jpeg" width=250>
+<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_exp/final.jpeg" width=250/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_suprematismus/final.jpeg" width=250><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/tv_and_wiederhold/final.jpeg" width=250>
 
 2. 
 
-<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/finished_product/bt_and_exp/final.jpeg" width=250/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/finished_product/bt_and_suprematismus/final.jpeg" width=250><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/finished_product/bt_and_wiederhold/final.jpeg" width=250>
+<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/bt_and_exp/final.jpeg" width=250/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/bt_and_suprematismus/final.jpeg" width=250><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/bt_and_wiederhold/final.jpeg" width=250>
 
 3. 
 
-<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/finished_product/nw_and_exp/final.jpeg" width=250/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/finished_product/nw_and_suprematismus/final.jpeg" width=250><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/example_results/finished_product/nw_and_wiederhold/final.jpeg" width=250>
+<img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/nw_and_exp/final.jpeg" width=250/><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/nw_and_suprematismus/final.jpeg" width=250><img class="image-align-left" src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/finished_product/nw_and_wiederhold/final.jpeg" width=250>
 
 All the above photos are created with a learning rate of 10.0 over 500 epochs of training. This takes approximately 17 minutes to complete on a M1 mac with 16GB of RAM. 
 
