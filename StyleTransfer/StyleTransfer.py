@@ -1,5 +1,7 @@
 import tensorflow as tf
 import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
 import time
 
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
@@ -210,8 +212,10 @@ def run_style_transfer(content_path,
                        learning_rate=7.0,
                        num_iterations=1000,
                        content_weight=1e3, 
-                       style_weight = 1e-2): 
-    display_num = 10
+                       style_weight=1e-2,
+                       intermediate_steps=False,
+                       display_num=10): 
+                       
     # We don't need to (or want to) train any layers of our model, so we set their trainability
     # to false. 
     model = get_model() 
@@ -250,9 +254,17 @@ def run_style_transfer(content_path,
     start_time = time.time()
     global_start = time.time()
 
+    # why are these values the way they are??
     norm_means = np.array([103.939, 116.779, 123.68])
     min_vals = -norm_means
-    max_vals = 255 - norm_means   
+    max_vals = 255 - norm_means 
+
+    min_vals = [0, 0, 0]
+    max_vals = [255, 255, 255]
+
+    # for animating progress
+    fig = plt.figure()
+    list_of_figures = [] 
     for i in range(num_iterations):
         grads, all_loss = compute_grads(cfg)
         loss, style_score, content_score = all_loss
@@ -267,6 +279,12 @@ def run_style_transfer(content_path,
             best_loss = loss
             best_img = init_image.numpy()
 
+        plot_img = init_image.numpy()
+        plt.tick_params(left = False, right = False , labelleft = False,
+                labelbottom = False, bottom = False)
+        im = plt.imshow(plot_img[0,:]/255., animated=True)
+        list_of_figures.append([im])
+
         if i % display_num == 0:
             print('Iteration: {}'.format(i))        
             print('Total loss: {:.4e}, ' 
@@ -274,17 +292,11 @@ def run_style_transfer(content_path,
                 'content loss: {:.4e}, '
                 'time: {:.4f}s'.format(loss, style_score, content_score, time.time() - start_time))
             start_time = time.time()
-            
-            # Display intermediate images
-            # if iter_count > num_rows * 5: continue 
-            # plt.subplot(num_rows, 5, iter_count)
-            # # Use the .numpy() method to get the concrete numpy array
-            # plot_img = init_image.numpy()
-            # plot_img = deprocess_img(plot_img)
-            # plt.imshow(plot_img)
-            # plt.title('Iteration {}'.format(i + 1))
 
             iter_count += 1
     print('Total time: {:.4f}s'.format(time.time() - global_start))
+
+    ani = animation.ArtistAnimation(fig, list_of_figures, interval=50, blit=True,
+                                repeat_delay=1000)
         
-    return best_img, best_loss 
+    return best_img, best_loss, ani

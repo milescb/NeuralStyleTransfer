@@ -74,7 +74,7 @@ python3 perform_transfer.py
 Possible command-line arguments are
 
 ```
-python3 perform_transfer.py --nEpochs=100 --learning_rate=10.0 --content_path=<path_to_content> --style_path=<path_to_styles> --save_folder=<path_to_save_folder>
+python3 perform_transfer.py --nEpochs=100 --learning_rate=10.0 --content_path=<path_to_content> --style_path=<path_to_styles> --save_folder=<path_to_save_folder> --display_num=10
 ```
 
 ## Preparing Photos

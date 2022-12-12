@@ -5,3 +5,4 @@ finished_product/test/initial.jpeg
 original_content/test1.jpeg
 *.sh
 transferEnv/*
+*.gif

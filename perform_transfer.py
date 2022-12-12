@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import matplotlib.animation as animation
 import numpy as np
 import os
 
@@ -39,15 +40,19 @@ plt.savefig(os.path.join('finished_product', args.save_folder, "initial.jpeg"),
 
 #%% ------------------------------------------------------------------------
 # Perform actual learning + style transfer
-best, best_loss = run_style_transfer(content_path, style_path, 
+best, best_loss, ani = run_style_transfer(content_path, style_path, 
                                         learning_rate=args.learning_rate,
-                                        num_iterations=args.nEpochs,)
+                                        num_iterations=args.nEpochs,
+                                        display_num=args.display_num)
 
 print(best_loss)
 
 plt.figure()
-plt.imshow(best[0,:]/150)
+plt.imshow(best[0,:]/255.)
 plt.tick_params(left = False, right = False , labelleft = False,
                 labelbottom = False, bottom = False)
 plt.savefig(os.path.join('finished_product', args.save_folder, "final.jpeg"), 
     bbox_inches='tight')
+
+writer = animation.PillowWriter(fps=10) 
+ani.save(os.path.join('finished_product', args.save_folder, "final.gif"), writer=writer)
