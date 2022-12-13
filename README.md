@@ -26,7 +26,7 @@ I choose as my subject matter the following photos of iconic Berlin scenes:
 
 I choose the following photos to apply styles
 
-1. Deutsche Expressionismus: Marianne von Werefkin. Die rote Stadt, 1902
+1. Deutsche Expressionismus: Marianne von Werefkin. Die rote Stadt, Tempera auf Pappe, 1902. 
 
 <img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/expressionismus.png" width=300 />
 
@@ -34,7 +34,7 @@ I choose the following photos to apply styles
 
 <img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/suprematismus.jpg" width=300 />
 
-3. Sascha Wiederhold Gemalde, _Figuren im Raum_, 1928, Detail, Öl auf Karton auf Leinwand
+3. Sascha Wiederhold Gemalde, _Figuren im Raum_, 1928, Öl auf Karton auf Leinwand. 
 
 <img src="https://github.com/lvb5/NeuralStyleTransfer/blob/master/styles/wiederhold.jpeg" width=300 />
 
